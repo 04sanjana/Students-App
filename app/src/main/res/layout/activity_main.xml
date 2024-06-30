@@ -1,0 +1,30 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/backgrnd"
+    android:padding="50px"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="279dp"
+        android:layout_height="277dp"
+        android:background="@drawable/student"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="Add Students"
+        android:id="@+id/add"
+        android:layout_margin="20px"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Students"
+        android:id="@+id/view"
+        android:background="@drawable/btn"
+        android:layout_margin="20px"/>
+
+</LinearLayout>
